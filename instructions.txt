@@ -1,0 +1,12 @@
+app -> MVC
+- controller -> controle da dos entre model e view
+- model -> processa e envia os dados para fora
+- view -> o que o usuário vê
+
+assets -> componentes como imagens, svg e outros arquivos
+
+config -> arquivos de configuração, como database.php
+
+scripts -> arquivos javaScript
+
+styles -> arquivos de estilização
