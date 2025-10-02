@@ -1,0 +1,60 @@
+.profile-info-content {
+    padding: .5rem;
+}
+
+.spotify-embed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f1f1f!important;
+
+    border: 0;
+}
+
+.profile-photo-img {
+    width: 45%;
+
+    -webkit-box-shadow: 5px 5px 0px 1px rgba(0, 0, 0, 0.5); 
+    box-shadow: 5px 5px 0px 1px rgba(0, 0, 0, 0.5);
+
+    outline: 2px solid black;
+}
+
+.profile-name-text {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.profile-info-section1 {
+    display: flex;
+}
+
+.profile-info-content-text {
+    margin-top: .5rem;
+    margin-left: .5rem;
+}
+
+.profile-interests {
+    margin-top: .5rem;
+    margin-left: 1.5rem;
+}
+
+ul.profile-interests {
+    list-style-type: disc;
+}
+
+.profile-blogs-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    
+    margin-top: .5rem;
+    margin-left: .5rem;
+}
+
+.profile-blogs {
+    margin-left: 2rem;
+}
+
+ul.profile-blogs {
+    list-style-type: disc;
+}

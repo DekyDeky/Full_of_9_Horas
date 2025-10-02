@@ -1,5 +1,7 @@
 <?php
 
+    require 'components\window\window.php';
+
     $loginPage = true;
 
     if(isset($_POST['toggleForgot'])) {
@@ -35,7 +37,7 @@
 
             <img src="assets/main/logo.gif" alt="" class="main-logo">    
 
-            <?php include 'components\window\window.php';?>
+            <?php windowBar("login.exe");?>
 
             <?php
             

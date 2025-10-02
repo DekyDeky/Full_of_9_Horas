@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteBase /fullof9hours/
+
+# Redireciona tudo que não for arquivo/diretório para index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [L]

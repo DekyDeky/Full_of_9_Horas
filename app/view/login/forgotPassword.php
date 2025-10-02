@@ -1,4 +1,4 @@
-<div class="login">
+<div class="login window-content">
     <img class="main-computer" src="assets/main/email.gif" alt="">
     
     

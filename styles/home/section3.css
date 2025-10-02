@@ -1,0 +1,70 @@
+.of_the_day {
+    text-align: center;
+}
+
+.word_of_the_day-title{
+    font-size: 1.5rem;
+}
+
+.word_of_the_day {
+    font-size: 2rem;
+}
+
+.monkey {
+    display: block;
+    margin: 0 auto;
+    padding: .5rem 0;
+}
+
+.monkey-text {
+    text-align: center;
+    padding-bottom: .5rem;
+}
+
+.all-blogs-content {
+    padding: .5rem 0;
+}
+
+.blog-item {
+    display: block;
+    margin: .5rem auto;
+    width: 95%;
+    height: 50px;
+}
+
+.ninehours {
+    background-image: url('../../assets/main/stars.png');
+    background-position: center;
+    background-size: contain;
+}
+
+.blog-logo {
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.sink {
+    background-image: url('../../assets/sink.png');
+    background-color: white;
+    background-position: center;
+}
+
+.k-loop {
+    background-color: black;
+}
+
+.k-loop > h1 {
+
+    height: 50px;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+
+    color: #4AF626;
+    font-size: 2rem;
+    text-shadow:
+          0 0 10px rgba(74, 246, 38, .7),
+          0 0 40px rgba(74, 246, 38, .7),
+          0 0 100px rgba(74, 246, 38, .7);
+}
